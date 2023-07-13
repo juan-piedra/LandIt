@@ -1,0 +1,129 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+  
+.box {
+    background-color: gray;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 36px;
+    height: 150px;
+    width: 800px;
+}
+  
+  
+.box:hover {
+    background-color: lightgray;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  button {
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  body a {
+    color: blue;
+  }
+  
+  #signupLink {
+    position: absolute;
+    bottom: 400px;
+    right: 737px;
+    margin: 10px;
+    color: blue;
+    font-size: 14px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 400px;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content input[type="email"],
+  .modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .modal-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #45a049;
+  }
