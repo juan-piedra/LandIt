@@ -74,7 +74,7 @@
   }
   
   #signupLink {
-    position: absolute;
+    position: relative;
     bottom: 400px;
     right: 737px;
     margin: 10px;
