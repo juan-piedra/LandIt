@@ -19,12 +19,12 @@ router.get("/login", async (req, res) => {
     return;
   } else {
 
-  // res.render('login');
-try {
-      res.render("login");
-    } catch (err) {
-      res.status(500).json(err);
-    }
+  res.render('login');
+// try {
+//       res.render("login");
+//     } catch (err) {
+//       res.status(500).json(err);
+//     }
   }
   });
 
