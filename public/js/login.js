@@ -8,7 +8,7 @@ link.onclick = function (e) {
 };
 
 window.onclick = function (event) {
-  if (event.target == modal) {
+  if (event.target === modal) {
     modal.style.display = "none";
   }
 };
@@ -30,7 +30,7 @@ const loginFormHandler = async (event) => {
   
       if (response.ok) {
         // If successful, redirect the browser to the profile page
-        document.location.replace('/');
+        document.location.replace('/profile');
       } else {
         alert(response.statusText);
       }
@@ -52,7 +52,7 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/login');
       } else {
         alert(response.statusText);
       }
