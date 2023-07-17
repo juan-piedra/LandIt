@@ -1,12 +1,11 @@
-<body>
-    <div class="title-container">
-        <h1 class="title">LandIt!</h1>
-    </div>
-
+<section>
+    <div class="title-container">Pick Your Style!</div>
     <div class="grid-container">
-        <button class="box">Normal</button>
-        <button class="box">Fakie</button>
+        {{#each styles}}
+        <button class="box">{{name}}</button>
+        {{/each}}
+        {{!-- <button class="box">Fakie</button>
         <button class="box">Switch</button>
-        <button class="box">Nollie</button>
+        <button class="box">Nollie</button> --}}
     </div>
-</body>
+</section>

@@ -1,13 +1,24 @@
-const User = require('./User');
-// const Project = require('./Project');
+const User = require('./user');
+const Technique = require('./technique');
+const Style = require('./style');
 
-// User.hasMany(Project, {
-//   foreignKey: 'user_id',
-//   onDelete: 'CASCADE'
+// User.hasMany(Style, {
+//   foreignKey: 'style_id',
+//   onDelete: 'CASCADE',
 // });
 
-// Project.belongsTo(User, {
-//   foreignKey: 'user_id'
+// Style.belongsToMany(User, {
+//   through: User,
 // });
 
-module.exports = {User};
+// Style.hasMany(Technique, {
+//     foreignKey: 'technique_id',
+//     onDelete: 'CASCADE',
+//   });
+
+// Technique.belongsToMany(Style, {
+//     through: Technique, 
+//     foreignKey: 'style_id',
+// })
+
+module.exports = {User, Technique, Style};

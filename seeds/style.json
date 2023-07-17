@@ -1,0 +1,19 @@
+
+[
+    {
+     "name":"Normal",
+     "description": "left foot on board roughly at the center, right foot pushing forward, resting on the tail of the board while off the ground"
+    },
+    {
+    "name": "Fakie",
+    "description" : "feet positioned like in Normal, but now board moves in the oposite direction, making the `tail` in normal now the nose or front"
+    },
+    {
+    "name": "Switch",
+    "description" : "right foot on board roughly at the center, left foot pushing forward, resting on the tail of the board while off the ground "
+    },
+    {
+    "name": "Nollie",
+    "description": "feet positioned like in Switch, but now board moves in the opposite direction, making the `tail` in Switch to the nose"
+    }
+]

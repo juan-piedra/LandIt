@@ -35,6 +35,20 @@ User.init(
         len: [4],
       },
     },
+    style_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'style',
+        key: 'id',
+      },
+    },
+    technique_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'technique',
+        key: 'id',
+      },
+    },
   },
   {
     hooks: {

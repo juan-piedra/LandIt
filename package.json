@@ -1,7 +1,7 @@
 {
   "name": "landit",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://custom-icon-badges.demolab.com/badge/license-MIT-yellowgreen.svg?logo=law)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://custom-icon-badges.demolab.com/github/repo-size/juan-piedra/LandIt?logo=repo) ![GitHub top language](https://img.shields.io/github/languages/top/juan-piedra/LandIt?logo=javascript&logoColor=f5f5f5) ![GitHub last commit](https://custom-icon-badges.demolab.com/github/last-commit/juan-piedra/LandIt?logo=git-commit)",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -18,7 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "seed": "node seeds/seed.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/juan-piedra/LandIt/issues"
   },
-  "homepage": "https://github.com/juan-piedra/LandIt#readme"
+  "homepage": "https://github.com/juan-piedra/LandIt#readme",
+  "devDependencies": {}
 }
