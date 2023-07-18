@@ -4,6 +4,7 @@ body {
 
 nav {
   display: flex;
+  box-sizing: content-box;
   flex-direction: row;
   align-items: center;
   justify-content:space-between;
