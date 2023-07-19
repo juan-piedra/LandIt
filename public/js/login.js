@@ -14,6 +14,7 @@ window.onclick = function (event) {
 };
 
 const loginFormHandler = async (event) => {
+  console.log("hit loginformhandler");
     event.preventDefault();
   
     // Collect values from the login form
@@ -21,6 +22,8 @@ const loginFormHandler = async (event) => {
     const password = document.querySelector('#password-login').value.trim();
   
     if (email && password) {
+      console.log("email", email);
+      console.log("password", password);
       // Send a POST request to the API endpoint
       const response = await fetch('/api/users/login', {
         method: 'POST',
@@ -29,6 +32,7 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
+        console.log(response.ok);
         // If successful, redirect the browser to the profile page
         document.location.replace('/');
       } else {
@@ -52,7 +56,7 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/login');
+        document.location.replace('/');
       } else {
         alert(response.statusText);
       }
