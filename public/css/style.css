@@ -23,31 +23,13 @@ header {
   border-bottom-color: red;
 }
 
-.login {
+.login-logout {
   position: relative;
   right:40px;
   font-size: 2em;
   font-family: 'Times New Roman', Times, serif;
+  background-color: black;
 }
-
-.no-button {
-  background: none;
-  display: inline-block;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: #1b89bc;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-/* 
-#logout {
-  position: relative;
-  right:5px;
-  font-size: 30px;
-  font-family: 'Times New Roman', Times, serif;
-} */
 
 #logo {
   max-width: 20%;

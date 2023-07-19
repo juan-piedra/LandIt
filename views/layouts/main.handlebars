@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LandIt!</title>
-  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -16,9 +15,11 @@
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         {{!-- <a href="/">profile</a>  --}}
-       <button class="no-button" id="logout">logout</button>
+       <button class="login-logout" id="logout">Logout</button>
+        {{else}}
+        <a href="/login" class="login-logout">Login</a>
         {{/if}}
-        <a href="/login" class="login">Login</a>
+        
       </header>
       <main class="container container-fluid mt-5">
         {{{ body }}}
