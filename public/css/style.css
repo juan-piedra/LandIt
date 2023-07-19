@@ -32,7 +32,7 @@ header {
 
 .no-button {
   background: none;
-  display: inline-block;
+  
   border: none;
   padding: 0;
   cursor: pointer;
