@@ -1,29 +1,53 @@
 body {
-  background: url(../assets/background.png) 10px;
+  background: url(../assets/background.png);
+  margin: 0;
+  padding: 0;
+  border:0;
+  box-sizing: content-box;
 }
 
-nav {
+#home {
+  position: relative;
+  left:20px;
+  font-size: 2rem;
+}
+
+header {
   display: flex;
-  box-sizing: content-box;
+  width: 100vw;
+  border: solid;
   flex-direction: row;
   align-items: center;
   justify-content:space-between;
   background-color: black;
+  border-bottom-color: red;
 }
 
 .login {
   position: relative;
-  right:5px;
-  font-size: 30px;
+  right:40px;
+  font-size: 2em;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.logout {
+.no-button {
+  background: none;
+  display: inline-block;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* 
+#logout {
   position: relative;
   right:5px;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 #logo {
   max-width: 20%;
@@ -72,13 +96,11 @@ nav {
 
 .login-container {
     position: relative;
-    left: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 500px;
-    width: 50vw;
   }
   
   h2 {

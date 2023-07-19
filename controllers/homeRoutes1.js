@@ -2,22 +2,27 @@ const router = require("express").Router();
 const { Technique, Style, User } = require("../models");
 const withAuth = require("../utils/auth");
 
-router.get("/", async (req, res) => {
+router.get("/", withAuth, async (req, res) => {
   try {
-    const styleData = await Style.findAll({})
-const styles = styleData.map(style => style.get({plain: true }))
-console.log(styles);
-    res.render("homepage", {styles});
+      const styleData = await Style.findAll({})
+  const styles = styleData.map(style => style.get({plain: true }))
+  console.log(req.session.logged_in);
+      res.render("homepage", {
+        styles,
+        logged_in: req.session.logged_in
+      });
   } catch (err) {
     res.status(500).json(err);
   }
+
 });
 
 router.get("/login", async (req, res) => {
+  console.log("hit login route")
   if (req.session.logged_in) {
     res.redirect('/');
     return;
-  } else {
+  } 
 
   res.render('login');
 // try {
@@ -25,7 +30,7 @@ router.get("/login", async (req, res) => {
 //     } catch (err) {
 //       res.status(500).json(err);
 //     }
-  }
+  
   });
 
 module.exports = router;
