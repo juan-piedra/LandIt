@@ -33,4 +33,17 @@ router.get("/login", async (req, res) => {
   
   });
 
+router.get("/normal", async (req, res) => {
+  res.render("normal")
+})
+router.get("/fakie", async (req, res) => {
+  res.render("fakie")
+})
+router.get("/switch", async (req, res) => {
+  res.render("switch")
+})
+router.get("/nollie", async (req, res) => {
+  res.render("nollie")
+})
+
 module.exports = router;
