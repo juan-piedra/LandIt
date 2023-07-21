@@ -1,23 +1,130 @@
-
 [
+    // NORMAL TRICKS
     {
-     "name":"ollie",
-     "description": "lift foot resting on front of board, push back of board down, once in air, flate",
+     "name":"Ollie",
+     "description": "lift foot resting on front of board, push back of board down, once in air, flat.",
      "style_id": 1
     },
     {
-    "name": "Fakie",
-    "description" : "feet positioned like in Normal, but now board moves in the oposite direction, making the `tail` in normal now the nose or front",
+    "name": "Pop Shuv",
+    "description" : "feet positioned like in Normal, but now board moves in the oposite direction, making the `tail` in normal now the nose or front.",
     "style_id": 2
     },
     {
-    "name": "Switch",
-    "description" : "right foot on board roughly at the center, left foot pushing forward, resting on the tail of the board while off the ground ",
+    "name": "Front Pop Shuv",
+    "description" : "right foot on board roughly at the center, left foot pushing forward, resting on the tail of the board while off the ground.",
     "style_id":3
     },
     {
-    "name": "Nollie",
-    "description": "feet positioned like in Switch, but now board moves in the opposite direction, making the `tail` in Switch to the nose",
-    "style_id":3
+    "name": "Frontside",
+    "description": "feet positioned like in Switch, but now board moves in the opposite direction, making the `tail` in Switch to the nose.",
+    "style_id":4
+    },
+    {
+    "name": "Backside",
+    "description": "A trick executed with the skater's back facing the ramp or obstacle.",
+    "style_id":5
+    },
+    // MEDIUM TRICKS
+    {
+    "name": "Kickflip",
+    "description": "The kickflip is a skateboarding trick, in which the rider flips their skateboard 360° along the axis that extends from the nose to the tail of the deck.",
+    "style_id":6
+    },
+    {
+    "name": "HeelFlip",
+    "description": "A heelflip, also known as a heelie, is a skateboard trick similar to a kickflip. A heelflip starts with the skateboarder performing an ollie then kicking their front foot out diagonally, using their front heel to flip the board in the air for a full rotation along its nose-tail axis.",
+    "style_id":7
+    },
+    {
+    "name": "BigSpin",
+    "description": "A trick in which the board rotates 360-degrees while the skateboarder turns 180 degrees in the same direction above it.",
+    "style_id":8
+    },
+    {
+    "name": "Varial Flip",
+    "description": "Varial Kickflips are acheived by combining the Pop Shove-it and Kickflip together as one trick.",
+    "style_id":9
+     },
+    {
+    "name": "Frontside 360",
+    "description": "This trick is a complete 360 rotation around your axis, face forward.",
+    "style_id":10
+    },
+    {
+    "name": "Backside 360",
+    "description": "In this trick you spin 360 degrees with your back facing forward.",
+    "style_id":11
+    },
+    {
+    "name": "Varial Heel",
+    "description": "A Varial Heelflip is a combination of a Frontside Pop Shove-It and a Heelflip.",
+    "style_id":12
+    },
+    {
+    "name": "360 Shuv",
+    "description": "Popping and shoving the tail behind you so the board rotates backside 540 degrees under your feet.",
+    "style_id":13
+    },
+    {
+    "name": "Front 360 Shuv",
+    "description": "Same thing as a Pop Shuv-it except you shove the tail forward so it rotates frontside 360 degrees (behind you) under your feet.",
+    "style_id":14
+    },
+    // HARD TRICKS
+    {
+    "name": "Treflip",
+    "description": "A tre flip aka 360 flip with a late varial kickflip.",
+    "style_id":15
+    },
+    {
+    "name": "Hardflip",
+    "description": "A frontside pop shove-it with a kickflip. This trick is awkward to execute, and the board sometimes appears to move vertically through the legs.",
+    "style_id":16
+    },
+    {
+    "name": "Inward Heel",
+    "description": "A combination of a backside pop shove-it with a heelflip.",
+    "style_id":17
+    },    
+    {
+    "name": "Double Flip",
+    "description": "A combination of a Pop Shuv-it and a Double Kickflip. It looks similar to a Varial Kickflip, but has an extra kickflip rotation.",
+    "style_id":18
+    },    
+    {
+    "name": "Double Heel",
+    "description": "Two heel flips",
+    "style_id":19
+    },    
+    {
+    "name": "Frontside Flip",
+    "description": "The board completes a full rotation in the air while the skateboarder changes their position to face the opposite direction.",
+    "style_id":20
+    },    
+    {
+    "name": "Backside Flip",
+    "description": "Is a backside 180 ollie with a kickflip.",
+    "style_id":21
+    },    
+    {
+    "name": "Frontside Heel",
+    "description": "This trick is a combination of a frontside 180 and heelflip. Your frame and board rotate 180 degrees, with your back to the direction of motion, while the board also does a heelflip.",
+    "style_id":22
+    },    
+    {
+    "name": "Backside Heel",
+    "description": "Combination of a Backside 180 and Heelflip. You and your board rotate 180° with your back facing the direction of motion, and the board also performs a Heelflip.",
+    "style_id":23
+    },    
+    {
+    "name": "Big Flip",
+    "description": "A 360 flip and with a backside body varial. Going fakie this trick is a cinch. like a fakie halcab varial flip. It pops and spins pretty easy.",
+    "style_id":24
+    },    
+    {
+    "name": "Big Heel",
+    "description": "Short for Bigspin Heelflip, the Big Heel is performed by having the board perform a 360 varial Heelflip while the body performs a 180 varial in the same direction.",
+    "style_id":25
     }
 ]

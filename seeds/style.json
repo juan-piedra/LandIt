@@ -2,18 +2,18 @@
 [
     {
      "name":"Normal",
-     "description": "Left foot on board roughly at the center, right foot pushing forward, resting on the tail of the board while off the ground"
+     "description": "Left foot on board roughly at the center, right foot pushing forward, resting on the tail of the board while off the ground."
     },
     {
     "name": "Fakie",
-    "description" : "Feet positioned like in Normal, but now board moves in the oposite direction, making the `tail` in normal now the nose or front"
+    "description" : "Feet positioned like in Normal, but now board moves in the oposite direction, making the `tail` in normal now the nose or front."
     },
     {
     "name": "Switch",
-    "description" : "Right foot on board roughly at the center, left foot pushing forward, resting on the tail of the board while off the ground "
+    "description" : "Right foot on board roughly at the center, left foot pushing forward, resting on the tail of the board while off the ground."
     },
     {
     "name": "Nollie",
-    "description": "Feet positioned like in Switch, but now board moves in the opposite direction, making the `tail` in Switch to the nose"
+    "description": "Feet positioned like in Switch, but now board moves in the opposite direction, making the `tail` in Switch to the nose."
     }
 ]
