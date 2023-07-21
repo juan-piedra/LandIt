@@ -34,16 +34,16 @@ router.get("/login", async (req, res) => {
   });
 
 router.get("/normal", async (req, res) => {
-  res.render("stance", {name: 'Normal'})
+  res.render("stance", {name: 'Normal', logged_in: req.session.logged_in})
 })
 router.get("/fakie", async (req, res) => {
-  res.render("stance", {name: 'Fakie'})
+  res.render("stance", {name: 'Fakie', logged_in: req.session.logged_in})
 })
 router.get("/switch", async (req, res) => {
-  res.render("stance", {name: 'Switch'})
+  res.render("stance", {name: 'Switch', logged_in: req.session.logged_in})
 })
 router.get("/nollie", async (req, res) => {
-  res.render("stance", {name: 'Nollie'})
+  res.render("stance", {name: 'Nollie', logged_in: req.session.logged_in})
 })
 
 module.exports = router;
