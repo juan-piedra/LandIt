@@ -1,5 +1,5 @@
 let easyTricks = ['Ollie', 'Pop Shuv', 'Front Pop Shuv', 'Frontside', 'Backside'];
-let mediumTricks = ['Kickflip', 'Heelflip', 'Bigspin', 'Varial Flip', 'Frontside 360', 'Backside 360', 'Varial Heel', '360 Shuv', 'Front 360 Shuv'];
+let mediumTricks = ['Kickflip', 'Heelflip', 'Bigspin', 'Varial Flip', 'Frontside 360', 'Backside 360', 'Varial Heel', '360 Shuv', '  360 Front Shuv'];
 let hardTricks = ['Treflip', 'Hardflip', 'Inward Heel', 'Double Flip', 'Double Heel', 'Frontside Flip', 'Backside Flip', 'Frontside Heel', 'Backside Heel', 'Big Flip', 'Big Heel'];
 
 const generateCheckboxList = (containerId, items) => {
