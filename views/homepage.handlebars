@@ -2,7 +2,7 @@
     <div class="title-container">Pick Your Style!</div>
     <div class="grid-container">
         {{#each styles}}
-        <a href="/{{name}}"><button class="box">{{name}}</button></a>
+        <a data-tooltip="{{description}}" href="/{{name}}" class="tooltip-multiline"><button class="box">{{name}}</button></a>
         {{/each}}
     </div>
 </section>
