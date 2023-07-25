@@ -1,4 +1,4 @@
-const User = require('./User');
+const User = require('./User1');
 const Technique = require('./technique');
 const Style = require('./style');
 
