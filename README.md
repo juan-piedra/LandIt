@@ -64,14 +64,11 @@
 
 ---
 
-## Screenshot
+<!-- ## Screenshot
 
 - Laptop/Ipad/Desktop
 
-![Example screenshot 1](./assets/images/01ss.gif)
-- Mobile
-
-![Example screenshot 2](./assets/images/02ss.gif)
+![Example screenshot 1](./assets/images/SS01.png) -->
 
 ---
 
@@ -83,7 +80,7 @@ To impress your friends with all the cool tricks you know.
 
 ## Project Status
 
-![project status](https://img.shields.io/static/v1?label=Complete&message=01%&color=success)
+![project status](https://img.shields.io/static/v1?label=Complete&message=100%&color=success)
 
 
 ---
