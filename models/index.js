@@ -1,6 +1,6 @@
 const User = require('./User1');
 const Technique = require('./technique');
-const Style = require('./style');
+const Style = require('./Style1');
 
 // User.hasMany(Style, {
 //   foreignKey: 'style_id',
