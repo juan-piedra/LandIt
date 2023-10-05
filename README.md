@@ -7,8 +7,6 @@
 
 > Assume that the client wants to keep track of their known skateboard tricks.
 > Allow the client to first select which stance of the four available, then enter into a sub menu with all available tricks that can be checked off as they are learned.
-> Using an API key `in conjunction with [YouTube](https://www.youtube.com), pull a video of said trick for reference (This can be added/removed later if we don't want it)
-> Emphasize landing a new trick with a confetti/fireworks explosion animation?
 > Live demo: [![LandIt](https://custom-icon-badges.demolab.com/badge/LandIt-blue?logo=link)](https://juan-piedra/LandIt)
 
 ---
