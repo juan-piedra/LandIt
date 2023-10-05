@@ -7,7 +7,6 @@
 
 > Assume that the client wants to keep track of their known skateboard tricks.
 > Allow the client to first select which stance of the four available, then enter into a sub menu with all available tricks that can be checked off as they are learned.
-> Live demo: [![LandIt](https://custom-icon-badges.demolab.com/badge/LandIt-blue?logo=link)](https://juan-piedra/LandIt)
 
 ---
 
